@@ -7,15 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		426E1CFA29C4873000DAA7BD /* Stage1View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 426E1CF929C4873000DAA7BD /* Stage1View.xib */; };
+		426E1CFC29C48A7800DAA7BD /* Stage1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426E1CFB29C48A7800DAA7BD /* Stage1View.swift */; };
+		426E1D0629CC6EFE00DAA7BD /* Stage4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426E1D0529CC6EFE00DAA7BD /* Stage4View.swift */; };
+		426E1D0829CC6F1100DAA7BD /* Stage4View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 426E1D0729CC6F1100DAA7BD /* Stage4View.xib */; };
+		426E1D0E29CDC05400DAA7BD /* LetterMatchStageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426E1D0D29CDC05400DAA7BD /* LetterMatchStageView.swift */; };
+		426E1D1029CDC49800DAA7BD /* LetterMatchStageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 426E1D0F29CDC49800DAA7BD /* LetterMatchStageView.xib */; };
+		426EFBC429C406CA0040F4EC /* MainAuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426EFBC329C406CA0040F4EC /* MainAuthView.swift */; };
+		426EFBC729C407190040F4EC /* MainAuthView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 426EFBC629C407190040F4EC /* MainAuthView.xib */; };
+		426EFBC929C452190040F4EC /* SelectCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426EFBC829C452190040F4EC /* SelectCollectionViewCell.swift */; };
 		4285C12A29C2AA32001E3F62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4285C12929C2AA32001E3F62 /* AppDelegate.swift */; };
 		4285C12C29C2AA32001E3F62 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4285C12B29C2AA32001E3F62 /* SceneDelegate.swift */; };
 		4285C12E29C2AA32001E3F62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4285C12D29C2AA32001E3F62 /* ViewController.swift */; };
 		4285C13129C2AA32001E3F62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4285C12F29C2AA32001E3F62 /* Main.storyboard */; };
 		4285C13329C2AA33001E3F62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4285C13229C2AA33001E3F62 /* Assets.xcassets */; };
 		4285C13629C2AA33001E3F62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4285C13429C2AA33001E3F62 /* LaunchScreen.storyboard */; };
+		CF717708375CD50A013B8B99 /* Pods_imNotARobot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23FF16F484058B924E2EB48F /* Pods_imNotARobot.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		23FF16F484058B924E2EB48F /* Pods_imNotARobot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_imNotARobot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		277A81422BD86C0AF27D479E /* Pods-imNotARobot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-imNotARobot.debug.xcconfig"; path = "Target Support Files/Pods-imNotARobot/Pods-imNotARobot.debug.xcconfig"; sourceTree = "<group>"; };
+		426E1CF929C4873000DAA7BD /* Stage1View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Stage1View.xib; sourceTree = "<group>"; };
+		426E1CFB29C48A7800DAA7BD /* Stage1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stage1View.swift; sourceTree = "<group>"; };
+		426E1D0529CC6EFE00DAA7BD /* Stage4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stage4View.swift; sourceTree = "<group>"; };
+		426E1D0729CC6F1100DAA7BD /* Stage4View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Stage4View.xib; sourceTree = "<group>"; };
+		426E1D0D29CDC05400DAA7BD /* LetterMatchStageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterMatchStageView.swift; sourceTree = "<group>"; };
+		426E1D0F29CDC49800DAA7BD /* LetterMatchStageView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LetterMatchStageView.xib; sourceTree = "<group>"; };
+		426EFBC329C406CA0040F4EC /* MainAuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAuthView.swift; sourceTree = "<group>"; };
+		426EFBC629C407190040F4EC /* MainAuthView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainAuthView.xib; sourceTree = "<group>"; };
+		426EFBC829C452190040F4EC /* SelectCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCollectionViewCell.swift; sourceTree = "<group>"; };
 		4285C12629C2AA32001E3F62 /* imNotARobot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = imNotARobot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4285C12929C2AA32001E3F62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4285C12B29C2AA32001E3F62 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +45,7 @@
 		4285C13229C2AA33001E3F62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4285C13529C2AA33001E3F62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4285C13729C2AA33001E3F62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56BDA69055F4817520274E32 /* Pods-imNotARobot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-imNotARobot.release.xcconfig"; path = "Target Support Files/Pods-imNotARobot/Pods-imNotARobot.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +53,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF717708375CD50A013B8B99 /* Pods_imNotARobot.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00FF4FD0E9B1CC03359C1716 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23FF16F484058B924E2EB48F /* Pods_imNotARobot.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		426EFBC529C406D60040F4EC /* CustomUIView */ = {
+			isa = PBXGroup;
+			children = (
+				426EFBC329C406CA0040F4EC /* MainAuthView.swift */,
+				426EFBC629C407190040F4EC /* MainAuthView.xib */,
+				426E1CF929C4873000DAA7BD /* Stage1View.xib */,
+				426E1CFB29C48A7800DAA7BD /* Stage1View.swift */,
+				426E1D0529CC6EFE00DAA7BD /* Stage4View.swift */,
+				426E1D0729CC6F1100DAA7BD /* Stage4View.xib */,
+				426E1D0D29CDC05400DAA7BD /* LetterMatchStageView.swift */,
+				426E1D0F29CDC49800DAA7BD /* LetterMatchStageView.xib */,
+			);
+			path = CustomUIView;
+			sourceTree = "<group>";
+		};
 		4285C11D29C2AA32001E3F62 = {
 			isa = PBXGroup;
 			children = (
 				4285C12829C2AA32001E3F62 /* imNotARobot */,
 				4285C12729C2AA32001E3F62 /* Products */,
+				69B98D473FC5CE8A99C16E29 /* Pods */,
+				00FF4FD0E9B1CC03359C1716 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +104,7 @@
 		4285C12829C2AA32001E3F62 /* imNotARobot */ = {
 			isa = PBXGroup;
 			children = (
+				426EFBC529C406D60040F4EC /* CustomUIView */,
 				4285C12929C2AA32001E3F62 /* AppDelegate.swift */,
 				4285C12B29C2AA32001E3F62 /* SceneDelegate.swift */,
 				4285C12D29C2AA32001E3F62 /* ViewController.swift */,
@@ -63,8 +112,18 @@
 				4285C13229C2AA33001E3F62 /* Assets.xcassets */,
 				4285C13429C2AA33001E3F62 /* LaunchScreen.storyboard */,
 				4285C13729C2AA33001E3F62 /* Info.plist */,
+				426EFBC829C452190040F4EC /* SelectCollectionViewCell.swift */,
 			);
 			path = imNotARobot;
+			sourceTree = "<group>";
+		};
+		69B98D473FC5CE8A99C16E29 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				277A81422BD86C0AF27D479E /* Pods-imNotARobot.debug.xcconfig */,
+				56BDA69055F4817520274E32 /* Pods-imNotARobot.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +133,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4285C13A29C2AA33001E3F62 /* Build configuration list for PBXNativeTarget "imNotARobot" */;
 			buildPhases = (
+				32AAB206D44FC92E8D65578D /* [CP] Check Pods Manifest.lock */,
 				4285C12229C2AA32001E3F62 /* Sources */,
 				4285C12329C2AA32001E3F62 /* Frameworks */,
 				4285C12429C2AA32001E3F62 /* Resources */,
+				08ED3FE4F282FD7FD316C7BA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,21 +187,72 @@
 			buildActionMask = 2147483647;
 			files = (
 				4285C13629C2AA33001E3F62 /* LaunchScreen.storyboard in Resources */,
+				426E1CFA29C4873000DAA7BD /* Stage1View.xib in Resources */,
+				426E1D1029CDC49800DAA7BD /* LetterMatchStageView.xib in Resources */,
+				426E1D0829CC6F1100DAA7BD /* Stage4View.xib in Resources */,
 				4285C13329C2AA33001E3F62 /* Assets.xcassets in Resources */,
 				4285C13129C2AA32001E3F62 /* Main.storyboard in Resources */,
+				426EFBC729C407190040F4EC /* MainAuthView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08ED3FE4F282FD7FD316C7BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-imNotARobot/Pods-imNotARobot-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-imNotARobot/Pods-imNotARobot-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-imNotARobot/Pods-imNotARobot-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32AAB206D44FC92E8D65578D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-imNotARobot-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4285C12229C2AA32001E3F62 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				426EFBC929C452190040F4EC /* SelectCollectionViewCell.swift in Sources */,
+				426E1D0E29CDC05400DAA7BD /* LetterMatchStageView.swift in Sources */,
+				426E1D0629CC6EFE00DAA7BD /* Stage4View.swift in Sources */,
 				4285C12E29C2AA32001E3F62 /* ViewController.swift in Sources */,
 				4285C12A29C2AA32001E3F62 /* AppDelegate.swift in Sources */,
 				4285C12C29C2AA32001E3F62 /* SceneDelegate.swift in Sources */,
+				426EFBC429C406CA0040F4EC /* MainAuthView.swift in Sources */,
+				426E1CFC29C48A7800DAA7BD /* Stage1View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +394,7 @@
 		};
 		4285C13B29C2AA33001E3F62 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 277A81422BD86C0AF27D479E /* Pods-imNotARobot.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -295,6 +408,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,6 +424,7 @@
 		};
 		4285C13C29C2AA33001E3F62 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56BDA69055F4817520274E32 /* Pods-imNotARobot.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -323,6 +438,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

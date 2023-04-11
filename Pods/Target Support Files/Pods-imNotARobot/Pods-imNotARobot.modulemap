@@ -1,0 +1,6 @@
+framework module Pods_imNotARobot {
+  umbrella header "Pods-imNotARobot-umbrella.h"
+
+  export *
+  module * { export * }
+}

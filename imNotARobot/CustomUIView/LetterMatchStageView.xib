@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LetterMatchStageView" customModule="imNotARobot" customModuleProvider="target">
+            <connections>
+                <outlet property="answerTextField" destination="lMO-lc-amX" id="Q7F-06-81G"/>
+                <outlet property="matchView" destination="2F4-XQ-YxT" id="mLk-Hy-VnF"/>
+                <outlet property="verifyButton" destination="Q14-vr-Yj4" id="D5y-bl-sUe"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lMO-lc-amX">
+                    <rect key="frame" x="13" y="17" width="294" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q14-vr-Yj4">
+                    <rect key="frame" x="217" y="152" width="90" height="35"/>
+                    <color key="backgroundColor" name="AccentColor"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="90" id="UQf-uv-5hJ"/>
+                        <constraint firstAttribute="height" constant="35" id="sR8-am-cbu"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Verify">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="touchUpInsideVerifyButton" destination="-1" eventType="touchUpInside" id="Lwb-dN-auU"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2F4-XQ-YxT" customClass="CapchaView" customModule="imNotARobot" customModuleProvider="target">
+                    <rect key="frame" x="13" y="59" width="294" height="80"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="294" id="Qdh-VW-vdD"/>
+                        <constraint firstAttribute="height" constant="80" id="tNT-jz-547"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" name="BackgroundGrayColor"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Q14-vr-Yj4" secondAttribute="bottom" constant="13" id="1gY-No-EJH"/>
+                <constraint firstItem="2F4-XQ-YxT" firstAttribute="top" secondItem="lMO-lc-amX" secondAttribute="bottom" constant="8" symbolic="YES" id="4ec-kH-4Kp"/>
+                <constraint firstItem="lMO-lc-amX" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="17" id="N3P-gM-hkk"/>
+                <constraint firstAttribute="trailing" secondItem="Q14-vr-Yj4" secondAttribute="trailing" constant="13" id="hMC-mU-WRP"/>
+                <constraint firstItem="lMO-lc-amX" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="13" id="jCU-Tf-j5F"/>
+                <constraint firstItem="2F4-XQ-YxT" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="13" id="jtG-pn-89e"/>
+                <constraint firstItem="Q14-vr-Yj4" firstAttribute="top" secondItem="2F4-XQ-YxT" secondAttribute="bottom" constant="13" id="otC-wY-190"/>
+                <constraint firstAttribute="trailing" secondItem="2F4-XQ-YxT" secondAttribute="trailing" constant="13" id="sEd-Vu-JfV"/>
+                <constraint firstAttribute="trailing" secondItem="lMO-lc-amX" secondAttribute="trailing" constant="13" id="sjT-Zd-Djy"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="19.847328244274809" y="19.718309859154932"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="BackgroundGrayColor">
+            <color red="0.96862745098039216" green="0.96862745098039216" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
